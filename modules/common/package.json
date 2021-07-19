@@ -1,0 +1,9 @@
+{
+  "name": "@iq500/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo testing common with: $npm_package_version"
+  }
+}

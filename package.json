@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "test": "lerna run test",
+    "test-common": "lerna run test --scope=@iq500/common",
+    "test-all": "lerna run test --scope={@iq500/common,@iq500/module_a}"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "name": "lerna-test"
+}
